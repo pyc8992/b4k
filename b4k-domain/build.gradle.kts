@@ -1,3 +1,4 @@
+
 tasks.getByName<org.springframework.boot.gradle.tasks.bundling.BootJar>("bootJar") {
   enabled = false
 }
@@ -18,4 +19,10 @@ dependencies {
   api("org.springframework.boot:spring-boot-starter-web")
 
   runtimeOnly("mysql:mysql-connector-java")
+}
+
+allOpen {
+  annotation("javax.persistence.Entity")
+  annotation("javax.persistence.MappedSuperclass")
+  annotation("javax.persistence.Embeddable")
 }
