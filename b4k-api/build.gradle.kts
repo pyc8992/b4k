@@ -1,12 +1,8 @@
-object DependencyVersions {
-  const val SWAGGER_VERSION = "2.9.2"
-}
-
 tasks.register("prepareKotlinBuildScriptModel"){}
 
 dependencies {
 
-  implementation(project(":b4k-domain"))
+  implementation(project(":b4k2-domain"))
 
   implementation("org.jetbrains.kotlin:kotlin-reflect")
   implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
