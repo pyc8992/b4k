@@ -2,7 +2,7 @@ tasks.register("prepareKotlinBuildScriptModel"){}
 
 dependencies {
 
-  implementation(project(":b4k2-domain"))
+  implementation(project(":b4k-domain"))
 
   implementation("org.jetbrains.kotlin:kotlin-reflect")
   implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
