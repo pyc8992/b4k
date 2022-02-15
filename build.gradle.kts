@@ -53,5 +53,6 @@ subprojects {
     plugin("org.springframework.boot")
     plugin("io.spring.dependency-management")
     plugin( "kotlin-allopen")
+    plugin( "kotlin-kapt")  // query dsl configure
   }
 }
