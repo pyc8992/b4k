@@ -30,9 +30,6 @@ dependencies {
 
   runtimeOnly("mysql:mysql-connector-java")
 
-//  testImplementation("io.kotest:kotest-runner-junit5:$version")
-//  testImplementation("io.kotest:kotest-assertions-core:$version")
-
   testImplementation("io.kotest:kotest-runner-junit5:4.4.1")
   testImplementation("io.kotest:kotest-assertions-core:4.4.1")
   testImplementation("io.kotest:kotest-extensions-spring:4.4.1")
