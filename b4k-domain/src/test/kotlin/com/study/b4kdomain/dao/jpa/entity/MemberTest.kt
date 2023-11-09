@@ -36,7 +36,7 @@ internal class MemberTest(
     val members = em.createQuery("select m from Member m", Member::class.java).resultList
 
     for (member in members) {
-      println("member = ${member}")
+      println("member = $member")
       println("-> member.team = ${member.team}")
     }
   }
